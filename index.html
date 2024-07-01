@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineplex</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Piedra&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Cineplex</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="home()">Home</a>
+                    <a id="shop" onclick="trending()">Trending</a>
+                    <a id="blog" onclick="news()">Blog</a>
+                    <a id="contact" onclick="contact()">Contact</a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mainPage">
+            <div class="text">
+                <h2>Cineplex</h2>
+                <h1 class="heads">Money Saving Deal</h1>
+                <h1>On All Movieshows</h1>
+                <p>Save money and spend time with your loveone</p>
+                <button> <a href=""></a>Explore</button>
+            </div>
+            <img src="img/rightimg.png" alt="" class="img">
+        </div>
+
+
+        <div class="cardfirst">
+            <div class="head">
+                <h1>Top <span>Trending Movies</span></h1>
+            </div>
+            <div class="card" id="item1">
+                <div class="crd">
+                    <img src="img/america.svg" alt="">
+                    <div class="txt">
+                        <h3>The America</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img/joker.svg" alt="">
+                    <div class="txt">
+                        <h3>The Joker Story</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img/blackout.svg" alt="">
+                    <div class="txt">
+                        <h3>Blackout</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cardsecond">
+            <div class="head">
+                <h1>Top <span>Boxoffice Hit</span></h1>
+            </div>
+
+            <div class="card">
+                <div class="crd">
+                    <img src="img/blackphone.svg" alt="" >
+                    <div class="txt">
+                        <h3>Blackphone</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img/eternals.svg" alt="" >
+                    <div class="txt">
+                        <h3>Eternals</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img/extraction.svg" alt="">
+                    <div class="txt">
+                        <h3>The Extraction</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--blog -->
+
+        <div class="newsContent">
+            <div class="head">
+                <h1>Upcoming <span>Movies</span></h1>
+            </div>
+
+            <div class="trd">
+                <div class="trending">
+                    <img src="img/godfather.svg" alt="">
+                    <div class="txt">
+                        <h3>The GodFather 1972</h3><br>
+                        <p>he Godfather is a 1972 American epic gangster film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo,based on Puzo's best-selling 1969 novel of the same title</p><br>
+                        <a href="https://en.wikipedia.org/wiki/The_Godfather">Read More</a>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="img/hustle.svg" alt="">
+                    <div class="txt">
+                        <h3>Hustle 2022</h3> <br>
+                        <p>Hustle is a 2022 American sports drama film directed by Jeremiah Zagar, written by Taylor Materne and Will Fetters, and co-produced by and starring Adam Sandler as a down-on-his-luck NBA scout who discovers a raw </p><br>
+                        <a href="https://en.wikipedia.org/wiki/The_Godfather">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+        <!-- contact -->
+
+        <div class="contact">
+            <div class="contactBanner">
+                <h1>#Let's Contact</h1>
+                <p>For more information, contact the city's head office</p>
+            </div>
+
+            <div class="form">
+                <h1>Fill Form and Contact with us</h1>
+                <input type="text" placeholder="Enter Your FirstName"> <br>
+                <input type="text" placeholder="Enter Your LastName"> <br>
+                <input type="email" placeholder="Enter Your Email"><br>
+                <input type="text" placeholder="Enter Your Number"><br>
+                <input type="text" placeholder="Write Your Query"><br>
+                <button>Submit</button>
+
+            </div>
+        </div>
+
+        <div class="letter">
+            <div class="sign">
+                <h2>Sign Up for NewsLetter</h2>
+                <p>For more Such news for shows deals then sign up</p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email Address">
+                <button>Sign Up</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <div class="Ftext">
+                <h1>Cineplex</h1>
+                <p>our locations</p>
+                <p>F&Q's</p>
+                <p>Reviews</p>
+                <p>About us</p>
+
+            </div>
+            <div class="Ftext">
+                <h3>Pune Headoffices</h3>
+                <p>Adrress :Kothrud Pune,<br> Maharashtra <br> 411052.</p>
+                <p>Adrress :Hadapsar Pune,<br> Maharashtra <br> 411054.</p>
+
+            </div>
+            <div class="Ftext">
+                <h3>Contact</h3>
+                <p>1234567890</p>
+                <p>cineplexshow@gmail.com</p>
+                <p>infocinplex@gmail.com</p>
+
+            </div>
+            <div class="Ftext">
+                <h3>Why US</h3>
+                <p>24x7 Service</p>
+                <p>Customer Satisfaction</p>
+                <p>Easy Booking</p>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="text-line">
+        <p>All rights Reserved | @nishantmaske</p>
+      </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
